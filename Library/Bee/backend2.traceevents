@@ -1,0 +1,270 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1692077641796747, "dur":55, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692077641796861, "dur":21686, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692077641818551, "dur":58, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692077641818637, "dur":566, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692077641819341, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":0, "ts":1692077641820258, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1692077641820445, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1692077641821160, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1692077641822412, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1692077641819232, "dur":3768, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692077641823001, "dur":197871, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692077642020873, "dur":175, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692077642021048, "dur":129, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692077642021298, "dur":959, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1692077641819506, "dur":3506, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692077641823015, "dur":3352, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692077641826775, "dur":329, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1692077641827108, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1692077641827194, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1692077641827423, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity Projects\\First\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692077641827474, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity Projects\\First\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692077641827600, "dur":252, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity Projects\\First\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692077641827853, "dur":372, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity Projects\\First\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692077641828226, "dur":509, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity Projects\\First\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692077641828737, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity Projects\\First\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692077641828833, "dur":377, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity Projects\\First\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692077641829272, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player9cbd60da-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1692077641827107, "dur":2357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1692077641829738, "dur":86, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692077641829990, "dur":185460, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1692077642019506, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1692077642019505, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1692077642019638, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1692077641819718, "dur":3341, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692077641823063, "dur":910, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692077641823974, "dur":2586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692077641826571, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1692077641826561, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1692077641829169, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1692077641831364, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1692077641831516, "dur":3425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1692077641835014, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1692077641836519, "dur":4091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1692077641840683, "dur":3423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692077641844174, "dur":3951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692077641848176, "dur":6331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692077641854568, "dur":3092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692077641857751, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692077641860802, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692077641862776, "dur":2916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692077641871033, "dur":106, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692077641865815, "dur":5335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692077641871239, "dur":12656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692077641883991, "dur":16420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1692077641900430, "dur":120443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692077641819555, "dur":3466, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692077641823029, "dur":934, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692077641823963, "dur":2432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692077641826406, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1692077641828918, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1692077641831369, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1692077641834016, "dur":114, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692077641831737, "dur":4068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1692077641836620, "dur":2863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692077641839575, "dur":3647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692077641843304, "dur":3128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692077641846844, "dur":6364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692077641853289, "dur":3231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692077641856584, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692077641860777, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692077641862521, "dur":2994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692077641865580, "dur":2601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692077641868796, "dur":10523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692077641879384, "dur":4320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692077641883800, "dur":15909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1692077641899725, "dur":121171, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692077641819609, "dur":3426, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692077641823038, "dur":884, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692077641823923, "dur":2448, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692077641826409, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1692077641826378, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1692077641826532, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692077641827296, "dur":3290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1692077641830638, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1692077641830986, "dur":5780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1692077641837145, "dur":5721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692077641842977, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692077641845840, "dur":3108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692077641849014, "dur":4750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692077641859408, "dur":101, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692077641853833, "dur":5711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692077641859693, "dur":8452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692077641868222, "dur":6028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692077641874326, "dur":5615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692077641879999, "dur":7600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692077641887666, "dur":6786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1692077641894481, "dur":4768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1692077641899266, "dur":121614, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692077641819665, "dur":3377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692077641823046, "dur":887, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692077641823934, "dur":2443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692077641826379, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1692077641826520, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692077641828629, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1692077641830691, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1692077641830689, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1692077641830959, "dur":5776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1692077641837040, "dur":3618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692077641840726, "dur":3814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692077641844625, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692077641847124, "dur":6141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692077641853340, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692077641856789, "dur":18769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692077641875623, "dur":10781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1692077641886539, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1692077641887792, "dur":6138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1692077641893956, "dur":4942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1692077641898918, "dur":121969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692077641819770, "dur":3300, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692077641823074, "dur":930, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692077641824004, "dur":2374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692077641826449, "dur":243, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1692077641826381, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1692077641828700, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1692077641830811, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1692077641830809, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1692077641831360, "dur":3227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1692077641834660, "dur":564, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":6, "ts":1692077641834658, "dur":568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/Box Game.exe" }}
+,{ "pid":12345, "tid":6, "ts":1692077641835238, "dur":4277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game.exe" }}
+,{ "pid":12345, "tid":6, "ts":1692077641839637, "dur":3520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692077641843218, "dur":3599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692077641846878, "dur":6152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692077641853111, "dur":2695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692077641855872, "dur":3711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692077641859646, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692077641861950, "dur":3000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692077641865019, "dur":3196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692077641868287, "dur":6535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692077641874888, "dur":9740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692077641884690, "dur":8617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1692077641893339, "dur":2844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1692077641896231, "dur":124626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692077641819814, "dur":3267, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692077641823086, "dur":951, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692077641824037, "dur":2363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692077641826401, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1692077641826529, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692077641829182, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1692077641830714, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1692077641831042, "dur":5625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1692077641837143, "dur":4820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692077641842066, "dur":11210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692077641853346, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692077641856505, "dur":7260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692077641863898, "dur":6235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692077641870201, "dur":6465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692077641876736, "dur":4430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1692077641881232, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1692077641882238, "dur":4074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1692077641886353, "dur":7245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1692077641893630, "dur":5739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1692077641899388, "dur":121463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692077641819874, "dur":3219, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692077641823097, "dur":652, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692077641823750, "dur":2619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692077641826889, "dur":226, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1692077641832363, "dur":224, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692077641827641, "dur":8092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1692077641844925, "dur":6323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692077641851325, "dur":3927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692077641855319, "dur":7351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692077641862728, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692077641866214, "dur":3314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692077641869599, "dur":4703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692077641874735, "dur":4902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692077641879727, "dur":3974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692077641883800, "dur":13043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1692077641896920, "dur":123929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692077641819912, "dur":3191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692077641823108, "dur":184, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692077641823292, "dur":3089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692077641826382, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1692077641826536, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692077641828933, "dur":2338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1692077641831321, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1692077641831319, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1692077641831470, "dur":3803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1692077641836632, "dur":4122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692077641840813, "dur":4736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692077641845789, "dur":3539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692077641849363, "dur":5542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692077641854968, "dur":3911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692077641859153, "dur":9196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692077641868421, "dur":4655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692077641873152, "dur":6811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692077641880012, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692077641880010, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692077641880171, "dur":25885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692077641906100, "dur":114776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692077641819949, "dur":3168, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692077641823117, "dur":3256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692077641826395, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1692077641826378, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1692077641826544, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692077641829146, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1692077641831078, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1692077641831176, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692077641831454, "dur":6650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1692077641838216, "dur":4820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692077641843098, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692077641846111, "dur":8335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692077641854478, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692077641857732, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692077641860369, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692077641862315, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692077641863965, "dur":2585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692077641866613, "dur":4071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692077641870752, "dur":7966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692077641878782, "dur":5388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692077641884226, "dur":7415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1692077641891679, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1692077641893712, "dur":8299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1692077641902032, "dur":118821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692077641820001, "dur":3145, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692077641823147, "dur":3228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692077641826379, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1692077641826519, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692077641828826, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1692077641830749, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1692077641830849, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692077641831494, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1692077641832660, "dur":358, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692077641832658, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692077641833127, "dur":4474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692077641837669, "dur":5097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692077641842832, "dur":3589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692077641846480, "dur":4045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692077641850566, "dur":4213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692077641854862, "dur":4705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692077641859633, "dur":17694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692077641877391, "dur":6395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692077641883851, "dur":12724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1692077641896612, "dur":124278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692077641820070, "dur":3086, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692077641823156, "dur":3234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692077641826405, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1692077641826394, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1692077641826526, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692077641828827, "dur":2814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1692077641831684, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.6f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692077641831682, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692077641832570, "dur":2445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692077641836610, "dur":6420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692077641843156, "dur":3033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692077641846271, "dur":5487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692077641851808, "dur":6540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692077641858462, "dur":3895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692077641862427, "dur":3076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692077641865575, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692077641868212, "dur":5535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692077641873816, "dur":4608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692077641878488, "dur":4274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692077641882837, "dur":3718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":12, "ts":1692077641886581, "dur":6194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/level4.resS" }}
+,{ "pid":12345, "tid":12, "ts":1692077641892811, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ferha/OneDrive/Masast/BULD/Box Game_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1692077641894762, "dur":126108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692077642025181, "dur":1042, "ph":"X", "name": "ProfilerWriteOutput" }
+,
